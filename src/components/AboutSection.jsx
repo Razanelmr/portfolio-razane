@@ -31,7 +31,7 @@ const AboutSection = () => {
       description: "Conception 2D pour publicités et gestion de plateformes d'apprentissage"
     },
     {
-      year: "2024 - Présent",
+      year: "2024 - 2025",
       title: "Enseignante Vacataire",
       company: "Institut Karisma coaching",
       description: "Enseignement de l'informatique générale et du Base De Donnée"
