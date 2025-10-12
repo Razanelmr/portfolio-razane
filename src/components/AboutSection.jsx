@@ -1,4 +1,5 @@
 import { GraduationCap, Briefcase, Award, MapPin } from 'lucide-react';
+import profilePhoto from '@/assets/profile-photo.jpg'; // ✅ importer l’image correctement
 
 const AboutSection = () => {
   const education = [
@@ -17,7 +18,6 @@ const AboutSection = () => {
   ];
 
   const experience = [
-    
     {
       year: "2022 - Présent",
       title: "Gérante d’établissement",
@@ -64,8 +64,8 @@ const AboutSection = () => {
             {/* Photo professionnelle */}
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
-                <img 
-                  src="/profile-photo.jpg" 
+                <img
+                  src={profilePhoto} // ✅ le chemin est maintenant correct
                   alt="Lamara Razane - Photo professionnelle"
                   className="w-full h-full object-cover"
                 />
@@ -76,15 +76,13 @@ const AboutSection = () => {
 
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Mon parcours</h3>
-              <p className="text-gray-600 leading-relaxed mb-6 text-justify" >
+              <p className="text-gray-600 leading-relaxed mb-6 text-justify">
                 Passionnée depuis toujours par l’informatique et animée par le désir de transmettre mon savoir, je suis une enseignante expérimentée, spécialisée dans le développement web et mobile. Mon parcours professionnel s’est construit au fil des années à travers diverses expériences formatrices, me permettant d’acquérir une expertise approfondie en réseaux, en systèmes distribués ainsi qu’en conception et développement d'applications. Grâce à cette polyvalence technique, je m'efforce de proposer à mes apprenants un enseignement riche.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6 text-justify">
                 Mon engagement dépasse la simple transmission de connaissances : je m’applique à rendre chaque cours vivant, interactif et ancré dans la réalité professionnelle. J’ai à cœur de créer un environnement d’apprentissage motivant, où la rigueur scientifique côtoie la créativité et l’innovation. Mon objectif est clair : inspirer et former les futures générations de professionnels de l’informatique.
               </p>
-              
 
-              
               <div className="flex items-center space-x-4 text-sm text-gray-500">
                 <div className="flex items-center">
                   <MapPin className="w-4 h-4 mr-1" />
@@ -164,4 +162,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
