@@ -58,7 +58,6 @@ const Navigation = () => {
 
           {/* CV Download Button */}
           <div className="hidden md:block">
-<<<<<<< HEAD
             <a
                 href="/portfolio-razane/Cv-LAMARARAZANE.pdf"
                 download="CV-Lamara-Razane.pdf"
@@ -70,20 +69,6 @@ const Navigation = () => {
                 </Button>
               </a>
 
-=======
-            <Button 
-              className="btn-primary"
-              onClick={() => {
-                const link = document.createElement('a');
-                link.href = '/src/assets/Cv-LAMARARAZANE(1).pdf';
-                link.download = 'CV-Lamara-Razane.pdf';
-                link.click();
-              }}
-            >
-              <Download className="w-4 h-4 mr-2" />
-              CV
-            </Button>
->>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
           </div>
 
           {/* Mobile menu button */}

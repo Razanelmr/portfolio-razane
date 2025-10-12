@@ -1,9 +1,5 @@
 import { GraduationCap, Briefcase, Award, MapPin } from 'lucide-react';
-<<<<<<< HEAD
-import profilePhoto from '../assets/profile-photo.jpg';
-=======
 
->>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
 const AboutSection = () => {
   const education = [
     {
@@ -23,7 +19,6 @@ const AboutSection = () => {
   const experience = [
     
     {
-<<<<<<< HEAD
       year: "2022 - Présent",
       title: "Gérante d’établissement",
       company: "2Nice School",
@@ -31,23 +26,11 @@ const AboutSection = () => {
     },
     {
       year: "2024 - Présent",
-=======
-      year: "2023 - Présent",
->>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       title: "Enseignante Spécialisée",
       company: "ArchimedPro",
       description: "Formation en développement web et mobile pour étudiants S1-S4"
     },
     {
-<<<<<<< HEAD
-=======
-      year: "2022 - Présent",
-      title: "Conceptrice Informaticienne",
-      company: "2Nice School",
-      description: "Conception 2D pour publicités et gestion de plateformes d'apprentissage"
-    },
-    {
->>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       year: "2024 - 2025",
       title: "Enseignante Vacataire",
       company: "Institut Karisma coaching",
@@ -82,11 +65,7 @@ const AboutSection = () => {
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
                 <img 
-<<<<<<< HEAD
-                  src={profilePhoto} 
-=======
-                  src="/src/assets/profile-photo.jpg" 
->>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
+                  src="/profile-photo.jpg" 
                   alt="Lamara Razane - Photo professionnelle"
                   className="w-full h-full object-cover"
                 />
