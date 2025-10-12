@@ -65,7 +65,7 @@ const AboutSection = () => {
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
               <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
                 <img 
-                  src="/profile-photo.jpg" 
+                  src="public/profile-photo.jpg" 
                   alt="Lamara Razane - Photo professionnelle"
                   className="w-full h-full object-cover"
                 />
