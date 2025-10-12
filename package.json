@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://Razanelmr.github.io/PortfolioRazane"
+    "homepage": "https://razanelmr.github.io/PortfolioRazane/"
+
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
