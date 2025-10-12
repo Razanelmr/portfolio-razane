@@ -10,7 +10,11 @@
     "preview": "vite preview",
     "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist",
+<<<<<<< HEAD
     "homepage": "https://razanelmr.github.io/PortfolioRazane/"
+=======
+    "homepage": "https://Razanelmr.github.io/NOM_DU_REPO"
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
 
   },
   "dependencies": {

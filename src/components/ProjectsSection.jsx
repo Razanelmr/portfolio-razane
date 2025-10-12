@@ -1,6 +1,10 @@
 import { useState } from 'react';
 import { ExternalLink, Github, Code, Smartphone, Globe, Database, FileVideo2, Film, Images } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
 const ProjectsSection = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
@@ -9,7 +13,11 @@ const ProjectsSection = () => {
       id: 1,
       title: "Application Mobile 'Mourafe9i'",
       description: "Mourafe9i est une application mobile qui met en relation les parents d’enfants malades avec des accompagnatrices qualifiées et fiables. Elle offre une solution numérique pratique et sécurisée pour accompagner les enfants lors de leurs soins, répondant ainsi à un besoin essentiel pour de nombreuses familles.",
+<<<<<<< HEAD
       image: "src/assets/mourafi9i.png",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["Flutter", "Dart", "Firebase"],
       category: "mobile",
       github: "https://www.canva.com/design/DAGeLS7m-t0/DYHOnFJxO4ZhtW_KS-BCpg/view?mode=prototype",
@@ -20,7 +28,11 @@ const ProjectsSection = () => {
       id: 2,
       title: "Portfolio Interactif",
       description: "Création de sites web portfolio numériques interactifs, conçus pour offrir une expérience utilisateur immersive, avec un design moderne et responsive, une navigation fluide, des animations dynamiques, et une présentation visuelle soignée des compétences, projets et services afin de captiver l’attention et valoriser l’identité professionnelle.",
+<<<<<<< HEAD
       image: "src/assets/website.png",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
       category: "web",
       github: "#",
@@ -31,7 +43,11 @@ const ProjectsSection = () => {
       id: 3,
       title: "App Mobile 'Tari9i'",
       description: "Tari9i est l’application idéale pour réserver facilement une place dans un trajet collectif et partagé à petit prix, que ce soit pour aller au travail, rejoindre l’université ou effectuer vos déplacements réguliers en toute simplicité. Grâce à une interface intuitive, un système de réservation rapide et des trajets optimisés, Tari9i facilite la mobilité quotidienne tout en favorisant le transport collaboratif et économique.",
+<<<<<<< HEAD
       image : "src/assets/tari9i.png",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["Flutter", "Firebase", "Dart", "MAPs"],
       category: "mobile",
       github: "https://github.com/Razanelmr/Tari9i.git",
@@ -42,7 +58,11 @@ const ProjectsSection = () => {
       id: 4,
       title: "App Mobile 'Tari9iPro'",
       description: "Tari9iPro est une application conçue pour les chauffeurs professionnels, offrant toutes les fonctionnalités essentielles telles que l'inscription, la gestion des trajets (lieu de départ, destination, horaire, prix, nombre de places), le suivi des réservations, le paiement en ligne et l'historique des trajets effectués.",
+<<<<<<< HEAD
       image: "src/assets/tari9ipro.png",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["Flutter", "Firebase", "Dart", "MAPs"],
       category: "mobile",
       github: "https://github.com/Razanelmr/tari9pro.git",
@@ -53,7 +73,11 @@ const ProjectsSection = () => {
       id: 5,
       title: "Application Mobile 'PTU' ",
       description: "PTU est une application mobile destinée aux élèves, leur permettant de suivre facilement leurs cours, consulter leur emploi du temps, accéder à leur carte d'étudiant, voir leurs notes et moyennes. Les enseignants peuvent ajouter des cours, et les étudiants peuvent les consulter en temps réel. L'application facilite la communication et la gestion pédagogique au sein de l'établissement.",
+<<<<<<< HEAD
       image: "src/assets/PTU.png",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["Flutter", "Firebase", "Dart"],
       category: "mobile",
       github: "https://github.com/Razanelmr/E-learning_Project_Flutter.git",
@@ -64,7 +88,11 @@ const ProjectsSection = () => {
       id: 6,
       title: "Social media Video",
       description: "Création de vidéos courtes, dynamiques et engageantes, spécialement conçues pour les plateformes sociales comme Instagram, TikTok, Facebook et YouTube Shorts. Chaque vidéo est pensée pour attirer l’attention dès les premières secondes, transmettre un message clair et renforcer l’identité de marque, tout en s’appuyant sur les tendances actuelles.",
+<<<<<<< HEAD
       image: "src/assets/makeit.jpg",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["CapCut", "Canva"],
       category: "Video",
       github: "#",
@@ -76,7 +104,11 @@ const ProjectsSection = () => {
       id: 7,
       title: "Social Media Post",
       description: "Création de visuels percutants et harmonieux pour les réseaux sociaux (Instagram, Facebook, LinkedIn, etc.). 🎨 Chaque post est conçu pour attirer l’attention, transmettre un message clair et renforcer l’identité visuelle de la marque.",
+<<<<<<< HEAD
       image: "src/assets/SocialMedia.jpg",
+=======
+      image: "/api/placeholder/400/250",
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
       technologies: ["PhotoShop", "Illustrator", "Canva"],
       category: "Post",
       github: "#",
@@ -151,11 +183,20 @@ const ProjectsSection = () => {
             <div key={project.id} className="project-card bg-white rounded-lg overflow-hidden shadow-lg">
               {/* Image du projet */}
               <div className="relative h-48 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
+<<<<<<< HEAD
                 <img
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
                   />
+=======
+                <div className="text-6xl text-primary/30">
+                  {project.category === 'web' && <Globe />}
+                  {project.category === 'mobile' && <Smartphone />}
+                  {project.category === 'Video' && <Film />}
+                  {project.category === 'Post' && <Images />}
+                </div>
+>>>>>>> 7393c60a9909dd65ce7cafd63a841f519f63a65f
                 {project.featured && (
                   <div className="absolute top-4 right-4 bg-primary text-white px-3 py-1 rounded-full text-xs font-semibold">
                     Projet Phare
