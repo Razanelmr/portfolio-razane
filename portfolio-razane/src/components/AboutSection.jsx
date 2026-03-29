@@ -62,6 +62,10 @@ const AboutSection = () => {
           {/* Présentation personnelle */}
           <div className="space-y-6">
             {/* Photo professionnelle */}
+            <div className="bg-white p-8 rounded-lg shadow-lg text-center">
+              <h3 className="text-2xl font-bold text-gray-900 mb-2">Lamara Razane</h3>
+              <p className="text-primary font-medium mb-4">Développeuse & Enseignante</p>
+            </div>
 
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Mon parcours</h3>
