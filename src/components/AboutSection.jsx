@@ -1,5 +1,4 @@
 import { GraduationCap, Briefcase, Award, MapPin } from 'lucide-react';
-import profilePhoto from '@/assets/profile-photo.jpg'; // ✅ importer l’image correctement
 
 const AboutSection = () => {
   const education = [
@@ -18,18 +17,13 @@ const AboutSection = () => {
   ];
 
   const experience = [
+   
     {
-      year: "2022 - Présent",
-      title: "Gérante d’établissement",
-      company: "2Nice School",
-      description: "Responsable du recrutement, de l’encadrement et de la formation des nouveaux employés afin d’assurer leur intégration et leur montée en compétences."
-    },
-    {
-      year: "2024 - Présent",
-      title: "Enseignante Spécialisée",
-      company: "ArchimedPro",
-      description: "Formation en développement web et mobile pour étudiants S1-S4"
-    },
+  year: "2022 - Présent",
+  title: "IT Manager",
+  company: "2Nice School",
+  description: "Direction du pôle informatique, encadrement des équipes techniques et gestion des talents (formation continue) pour assurer l'excellence opérationnelle et l'innovation au sein de l'établissement."
+},
     {
       year: "2024 - 2025",
       title: "Enseignante Vacataire",
@@ -63,13 +57,6 @@ const AboutSection = () => {
           <div className="space-y-6">
             {/* Photo professionnelle */}
             <div className="bg-white p-8 rounded-lg shadow-lg text-center">
-              <div className="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden shadow-lg">
-                <img
-                  src={profilePhoto} // ✅ le chemin est maintenant correct
-                  alt="Lamara Razane - Photo professionnelle"
-                  className="w-full h-full object-cover"
-                />
-              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">Lamara Razane</h3>
               <p className="text-primary font-medium mb-4">Développeuse & Enseignante</p>
             </div>
