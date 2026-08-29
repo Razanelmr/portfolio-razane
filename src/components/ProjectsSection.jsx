@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 // 🖼️ Importation des images directement depuis /src/assets/
 import mourafi9i from '@/assets/mourafi9i.png';
 import website from '@/assets/website.png';
+import niceschool from '@/assets/2niceschool.png';
 import tari9i from '@/assets/tari9i.png';
 import tari9ipro from '@/assets/tari9ipro.png';
 import ptu from '@/assets/PTU.png';
@@ -37,6 +38,18 @@ const ProjectsSection = () => {
       category: "web",
       github: "#",
       demo: "#",
+      featured: false
+    },
+    {
+      id: 8,
+      title: "2Nice SChool",
+      description:
+        "Conception et développement du site web officiel de 2Nice School, Le site offre une véritable réception virtuelle accessible 24h/24, facilitant la découverte des services, des formations et des informations essentielles. Une expérience fluide et professionnelle permettant également aux visiteurs de s’inscrire facilement en quelques clics.",      
+      image: niceschool,
+      technologies: ["React", "Firebase"],
+      category: "web",
+      github: "#",
+      demo: "https://2niceschool.com/",
       featured: false
     },
     {
